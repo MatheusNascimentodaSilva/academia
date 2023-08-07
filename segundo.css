@@ -1,0 +1,583 @@
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    
+    }
+    
+    
+    body
+    {
+    
+        background-color: #07867c;
+    
+    }
+    
+    nav
+    
+    {
+    
+        padding: 20px;
+    
+        margin: 28px;
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+    
+        align-items: center;
+    
+        justify-content: space-around;
+    
+    }
+    
+    
+    input
+    
+    
+    {
+    
+        width: 700px;
+    
+        height: 50px;
+    
+        border-radius: 25px;
+    
+        margin: 25px 0px;
+    
+        font-size: 14px;
+    
+    }
+    
+    
+    .loja
+    
+    
+    {
+    
+        font-size: 90px;
+    
+    }
+    
+    
+    .ab
+    
+    
+    {
+    
+        text-decoration: none;
+    
+    
+        background-color: #221e1e;
+    
+    
+        margin: 0px;
+    
+        padding: 15px;
+    
+        font-size: 24px;
+    
+    
+        color: #fff;
+    
+    }
+    
+    
+    #links
+    
+    {
+    
+        display:flex;
+    
+        justify-content: space-around;
+    
+        flex-direction: row; 
+    
+        background-color: #221e1e;
+    
+    }
+    
+    .banner img
+    
+    
+    {
+       
+        width: 100%;
+        margin-bottom: 38px;
+    
+    }
+    
+    
+    h2
+    
+    {
+    
+    padding: 18px;
+    
+    }
+
+   
+    .container-flex
+    
+    {
+    
+        display: flex;
+    
+        flex-direction: column;
+    
+        align-items: center;
+    
+    
+        gap: 48px;
+    
+    }
+
+
+    #menor
+    {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+    .para:hover{
+        font-size: 20px;
+        
+    }
+    
+    .card-servico
+    
+    {
+        color: #fff;
+    
+        text-align:center;
+    
+        background-color: #076159;
+    
+        padding: 12px;
+    
+        border-radius: 20px;
+    
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+        width: 60%;
+    }
+    
+    .card-servico img
+    {
+        border-radius: 20px;
+        margin: 8px 0;
+       
+    }
+
+
+    .card-servico img:hover
+    {
+        font-size: 20px;
+    }
+
+
+    .container-flex:hover{
+        font-size: 20px;
+       
+
+    }
+
+    .tres
+    
+
+    {
+    
+    
+        border-radius:20px ;
+    
+        background-color: #221e1e;
+    
+        width: 50%;
+    
+        padding: 30px 60px;
+    
+        color: rgb(255, 255, 255);
+    
+        text-decoration:none;
+    
+    }
+    
+    
+    #tresdeb-flex
+    {
+        display: flex;
+    
+        flex-direction: column;
+    
+        margin: 32px;
+    
+    }
+    
+    
+    .tres
+    {
+    
+    
+    
+    
+        display: flex;
+
+        flex-direction:column;
+
+         margin: 20px;
+    
+    }
+    
+
+    #servicos
+    
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+       margin: 30px ;
+       
+    
+    }
+    
+    a{
+    
+        font-size: 30px;
+    
+        margin-left: 48px;
+    
+        text-decoration: none;
+    
+    }
+    
+    
+    
+    
+    a:hover{
+    
+        font-size: 30px;
+        color: rgb(13, 134, 108);
+    
+    }
+    
+    
+    
+    
+    
+    footer
+    
+    {   
+        border-top: 4px solid #07554e;
+        color: #fff;
+        background-color: #221e1e;
+        margin-top: 20px;
+        padding: 18px;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    
+    
+
+
+
+@media (min-width: 1280px)
+
+{
+*
+{
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+body{
+
+    background-color: #07867c;
+
+}
+
+nav
+
+{
+
+    padding: 20px;
+    margin: 28px;
+    display: flex;
+
+    flex-direction: row;
+
+    align-items: center;
+
+
+    justify-content: space-around;
+
+
+}
+input
+
+{
+
+    width: 700px;
+    height: 50px;
+
+    border-radius: 25px;
+
+    margin: 25px 0px;
+
+    font-size: 14px;
+
+}
+
+.loja
+
+
+{
+
+    font-size: 90px;
+
+}
+
+
+.ab
+{
+
+    text-decoration: none;
+
+    background-color: #221e1e;
+
+    margin: 0px;
+
+    padding: 15px;
+
+    font-size: 24px;
+
+    color: #fff;
+
+}
+
+
+#links
+
+
+{
+    display:flex;
+
+    justify-content: space-around;
+
+    flex-direction: row; 
+
+    background-color: #221e1e;
+
+}
+
+.banner img
+
+{
+
+    width: 100%;
+    margin-bottom: 38px;
+
+}
+
+
+h2
+
+
+{
+
+padding: 18px;
+
+}
+
+.container-flex
+
+{
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+}
+
+.card-servico
+
+{
+    color: #fff;
+    text-align: center;
+    background-color: #076159;
+    padding: 12px;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 60%;
+}
+
+.card-servico img{
+
+
+    border-radius: 20px;
+
+
+    margin: 8px 0;
+
+}
+
+
+
+
+
+
+
+.tres
+
+
+
+
+{
+
+
+
+
+    border-radius:20px ;
+
+
+
+
+    background-color: #221e1e;
+
+
+
+
+    width: 50%;
+
+
+
+
+    padding: 30px 60px;
+
+
+
+
+    color: rgb(255, 255, 255);
+
+
+
+
+    text-decoration:none;
+
+
+
+
+}
+
+
+
+
+#tresdeb-flex
+
+
+{
+
+
+
+
+    display: flex;
+
+
+
+
+    flex-direction: row;
+
+
+
+
+    margin: 32px;
+
+}
+
+
+.tres
+{
+
+
+
+
+    display: flex;
+
+
+
+
+    flex-direction:column;
+
+
+
+
+     margin: 20px;
+
+
+
+
+}
+
+#servicos
+
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   margin: 30px ;
+
+}
+
+
+
+
+
+
+a{
+
+    font-size: 30px;
+
+    margin-left: 48px;
+
+    text-decoration: none;
+
+}
+
+
+
+
+a:hover{
+
+    font-size: 48px;
+    color: rgb(13, 134, 108);
+
+}
+
+
+
+
+
+footer
+
+{   
+    border-top: 4px solid #07554e;
+    color: #fff;
+    background-color: #221e1e;
+    margin-top: 20px;
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+
+}
